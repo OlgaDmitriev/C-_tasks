@@ -5,27 +5,31 @@ if (x == 1)
 {
     Console.WriteLine("Понедельник");
 }
-if (x==2)
+else if (x==2)
 {
     Console.Write("Вторник");
 }
-if (x==3)
+else if (x==3)
 {
     Console.Write("Среда");
 }
-if (x==4)
+else if (x==4)
 {
     Console.Write("Четверг");
 }
-if (x==5)
+else if (x==5)
 {
     Console.Write("Пятница");
 }
-if (x==6)
+else if (x==6)
 {
     Console.Write("Суббота");
 }
-if (x==7)
+else if (x==7)
 {
     Console.Write("Воскресенье");
+}
+else 
+{
+    Console.Write("Такого дня не существует");
 }
